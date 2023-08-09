@@ -10,7 +10,7 @@ macro_rules! js_object {
                     &$value,
                 )?;
             )*
-            Ok(JsValue::from(obj))
+            Ok(wasm_bindgen::JsValue::from(obj))
         };
         c()
     }};
