@@ -5,9 +5,9 @@ const START_TIME = 1673049600000.0;
 
 function getPhrase(days) {
   if (days == 0) {
-    return "Bukkit is making the world worse, but ichor is still fighting to make the world a better place.";
+    return "Bukkit is making the world worse, but ichor is still fighting to make the world a better place";
   } else {
-    return "School doesn't count as excuse (yeah maybe it does BUT WHO CARES).";
+    return "School doesn't count as excuse (yeah maybe it does BUT WHO CARES)";
   }
 }
 
